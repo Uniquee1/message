@@ -10,7 +10,7 @@ document.addEventListener('click', musicPlay);
             document.getElementById('bgmusic').play()
         }
 function accepted(){
-    document.getElementById("bgmusic").src = "rss/hapi.mp3";
+    document.getElementById("bgmusic").src = "rss/Hapi.mp3";
     document.getElementById('text').innerHTML ="ILY<3";
     document.getElementById('text').style.visibility="visible";
     document.getElementById('subtext').style.visibility="hidden";
