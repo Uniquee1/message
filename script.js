@@ -19,7 +19,15 @@ function accepted(){
     document.getElementById("img").src = "rss/happypepe.jpg";
     clearTimeout(x);
 }
-
+function declined(){
+    document.getElementById("bgmusic").src = "rss/laugh.mp3";
+    document.getElementById('text').style.visibility="hidden";
+    document.getElementById('subtext').style.visibility="hidden";
+    document.getElementById('cat').style.visibility="visible";
+    document.getElementById("cat").src = "rss/laughemoji.gif";
+    document.getElementById("img").src = "rss/happypepe.jpg";
+    clearTimeout(x);
+}
 function doSomething(){
     show();
 
