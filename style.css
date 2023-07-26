@@ -87,6 +87,7 @@ background-size: cover;
 
 .err-container button a{
     color: white;
+    text-transform: uppercase;
 
 }
 
