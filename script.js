@@ -25,7 +25,7 @@ function declined(){
     document.getElementById('subtext').style.visibility="hidden";
     document.getElementById('cat').style.visibility="visible";
     document.getElementById("cat").src = "rss/laughemoji.gif";
-    document.getElementById("img").src = "rss/happypepe.jpg";
+    document.getElementById("img").src = "rss/sadpepe.jpg";
     clearTimeout(x);
 }
 function doSomething(){
