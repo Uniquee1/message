@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>...</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="err-container">
+        <img src="" class="img" id="img"> 
+        <h2>A meesage for you...</h2>
+        <marquee onmousedown="this.stop();" onmouseup="this.start();" direction="right" behavior="alternate" scrollamount="10"><h1 id="text"></h1></marquee>
+        <audio id="bgmusic" controls loop src=""></audio>
+        <marquee onmousedown="this.stop();" onmouseup="this.start();"  direction="left" behavior="alternate" scrollamount="7"><p id="subtext"></p></marquee>
+        <button id="accept" class="Accept"><a href="accept.html">Open</a></buttom>
+        <button onclick="doSomethingElse()" id="decline" class="Decline">Decline</button>
+        <!--idea from: DarkCode YT channel-->
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
