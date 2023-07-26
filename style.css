@@ -153,10 +153,6 @@ background-size: cover;
     margin-right: 2rem;
 }
 
-.accept .Decline{
-    pointer-events: none;
-}
-
 .accept button:hover{
     background: #333;
 }
