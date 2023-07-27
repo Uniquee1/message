@@ -12,6 +12,7 @@ document.addEventListener('click', musicPlay);
 function accepted(){
     document.getElementById("bgmusic").src = "rss/Hapi.mp3";
     document.getElementById('text').innerHTML ="ILY<3";
+    document.getElementById('walk').style.visibility="hidden";
     document.getElementById('text').style.visibility="visible";
     document.getElementById('subtext').style.visibility="hidden";
     document.getElementById('cat').style.visibility="visible";
@@ -19,15 +20,19 @@ function accepted(){
     document.getElementById("img").src = "rss/happypepe.jpg";
     clearTimeout(x);
 }
+
 function declined(){
-    document.getElementById("bgmusic").src = "rss/laugh.mp3";
+    document.getElementById("bgmusic").src = "rss/cry.mp3";
+    document.getElementById("walk").src = "rss/walkcat.gif";
+    document.getElementById('walk').style.visibility="visible";
     document.getElementById('text').style.visibility="hidden";
     document.getElementById('subtext').style.visibility="hidden";
     document.getElementById('cat').style.visibility="visible";
-    document.getElementById("cat").src = "rss/laughemoji.gif";
+    document.getElementById("cat").src = "rss/crycat.gif";
     document.getElementById("img").src = "rss/sadpepe.jpg";
     clearTimeout(x);
 }
+
 function doSomething(){
     show();
 
