@@ -157,6 +157,27 @@ background-size: cover;
     background: #333;
 }
 
+.accept .walk{
+  visibility: hidden;
+  width: 50px;
+  height: 100px;
+  position: relative;
+  top: -120px;
+  left: 580px;
+
+  animation: block 2s infinite alternate;
+}
+
+@keyframes block {
+    0% {
+      left: 200px;
+    }
+  
+    100% {
+      left: -200px;
+    }
+}  
+
 .choice{
     visibility: hidden;
     padding-top: 9rem;
